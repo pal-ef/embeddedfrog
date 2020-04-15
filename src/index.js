@@ -5,7 +5,7 @@ const path = require('path')
 // Settings
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
-app.set('port', 4000);
+app.set('port', process.env.PORT || 5000);
 
 
 // Middleware
