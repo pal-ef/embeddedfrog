@@ -1,0 +1,114 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Staatliches&display=swap');
+
+/* UNIVERSAL */
+* {
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+}
+*::selection {
+    background-color:#007D83;
+    color:white;
+}
+
+/* Central */
+#central {
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* NAV MENU */
+nav {
+    padding-top:20px;
+    border-bottom: #007D83 solid 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.search {
+    margin-top:10px;
+    margin-right:5px;
+    float: right;
+}
+
+.search input {
+    padding:7px 10px;
+    color:#007D83;
+    font-size:17px;
+    border: 1px solid #007D83;
+    border-radius:5px;
+}.search input::placeholder {color:#007D83;}
+.search input, button:focus {
+    outline: none;
+}
+
+.search button {
+    padding:7px;
+    color:#007D83;
+    background:none;
+    font-size:17px;
+    border:none;
+}
+.search button:active {
+    background-color:#007D83;
+    color:white;
+    border-radius:5px;
+}
+.fa-frog {
+    color: #007D83;
+    font-size:60px;
+    padding-right:30px;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+
+nav ul li a {
+    float: left;
+    color:#007D83;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding:15px;
+}
+
+/* ANNOUNCE */
+.announce {
+    width:100%;
+    float: left;
+    box-sizing: border-box;
+    margin-top:10px;
+    padding:20px;
+    color:#007D83;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.announce h1 {
+    width:100%;
+    text-align: center;
+    font-size:50px;
+}
+
+.announce p {
+    font-size:20px;
+    margin-top:20px;
+    text-align: center;
+}
+
+.box {
+    box-sizing: border-box;
+    width:100%;
+    float: left;
+    padding:20px;
+    background-color:#007D83;
+    color:whitesmoke;
+    font-family: 'Nanum Gothic', sans-serif;
+    height:30vh;
+}
+
+.box h1 {
+    padding-bottom:10px;
+    border-bottom: 2px solid white;
+}
